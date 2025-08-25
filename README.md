@@ -1,4 +1,4 @@
-"""
+
 # Face and Ghost Detector
   ![Preview](test.gif)
 This is a Python application that uses OpenCV and the `cvzone` library to detect faces in a webcam feed and overlay a playful "ghost detector" feature. The program draws green rectangles around detected faces, displays attributes like age, mood, and gender, and simulates ghost detection with randomly positioned boxes.
@@ -23,19 +23,19 @@ This is a Python application that uses OpenCV and the `cvzone` library to detect
    ` pip install opencv-python cvzone `
 3. **Code Overview**:
 
-  # Libraries:
+  - Libraries:
   
   cv2: OpenCV for image processing and webcam access.
   cvzone.FaceDetectionModule: For face detection.
   random: To position ghost boxes randomly.
   
-  # Key Components:
+  - Key Components:
   
   Face detection with FaceDetector (confidence threshold: 0.5).
   Hardcoded face attributes displayed below each face.
   Two "ghost" boxes that reposition every 45 frames with fake attributes.
   
-  # Customization:
+  - Customization:
   
   Replace hardcoded attributes with an AI model for real attribute detection.
   Adjust minDetectionCon for face detection sensitivity.
@@ -43,4 +43,4 @@ This is a Python application that uses OpenCV and the `cvzone` library to detect
 
 4. **License**:
     This project is licensed under the MIT License. See the LICENSE file for details.
-"""
+   
